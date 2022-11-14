@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+legend {
+  text-align: center;
+}
+
+.input-container {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+.input-container > label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin-block-end: 3px;
+}
+
+.input-container--radio {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input-container--radio > label {
+  margin: 3px 0 0 3px;
+  padding: 0;
+}
